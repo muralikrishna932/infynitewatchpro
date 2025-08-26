@@ -975,7 +975,7 @@
     padding: 15px 10px 10px;
     width: 24%;
     text-align: center;
-    /*box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);*/
+    box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);
     background: linear-gradient(to right, rgb(0, 222, 255) 0.84%, rgb(227, 227, 227)) /*#93dfee*/;
     font-size: 0.9rem;
 }
@@ -1061,7 +1061,7 @@
 .bg-whychoose {
     background: linear-gradient(to right, #000428, #004e92);
     border-radius: 10px;
-    width: 98%;
+    width: 70%;
 }
 
 
@@ -1137,7 +1137,7 @@
 
 
 :root {
-  --webex-primary-color: #001379;
+  --webex-primary-color: linear-gradient(to right, #000428, #004e92);
   --webex-primary-color-rgb: 59, 56, 235;
   --bg-white: #ffffff;
   
@@ -1288,7 +1288,7 @@
 
 
 .dark-backgroud {
-    background: #1cbbed !important; 
+    background: rgb(26, 37, 61) !important; 
 }
 
 .project-req {
@@ -1301,7 +1301,7 @@
 	background: #d31414;
 	width: 96%;
 	border-radius: 10%;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-transform: capitalize;
     color: #fff;
@@ -1316,7 +1316,7 @@
 .sub-heading {
 	font-family: 16px;
 	background-color: #e6effff7;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 500;
 	display: inline-block;
 	padding: 5px 20px 5px 40px;
@@ -1346,14 +1346,6 @@
   margin: 30px;
 }
 
-.wdgt-box {
-  width: 258px;
-  padding: 36px;
-  border-radius: 10px;
-  margin: 36px;
-  box-shadow:5px 10px 10px rgba(0, 66, 200, 0.62);
-  background-color: mintcream;
-}
 
 .addr-heading {
   color: #000000;
@@ -1371,7 +1363,7 @@
 
 
 .bg-hm-widgets {
-	background: #F90C00 !important;
+	background: rgb(5, 58, 139) !important;
 	padding: 80px 0 60px 0;
 	margin-bottom: 6rem;
 	transition: 0.5s;
@@ -1459,17 +1451,6 @@ Services list home page
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*# sourceMappingURL=style.css.map */
+.bg-azure {
+	background-color: azure;
+}

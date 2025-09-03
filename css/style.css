@@ -1150,8 +1150,9 @@
 
 ::selection {
   background: var(--webex-primary-color);
-  color: #0072cf;
+  color: #ee0606;
   text-shadow: none;
+  background: #004e92;
 }
 
   
@@ -1453,8 +1454,10 @@ Services list home page
 
 .bg-azure {
 	background-color: yellow;
+    border-radius: 10px;
 }
 
 .bg-service-overview {
 	background-color: yellow;
+    border-radius: 10px;
 }

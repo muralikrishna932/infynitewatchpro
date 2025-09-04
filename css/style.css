@@ -1316,7 +1316,7 @@
 
 .sub-heading {
 	font-family: 16px;
-	background-color: #e6effff7;
+	/*background-color: #e6effff7;*/
 	font-size: 25px;
 	font-weight: 500;
 	display: inline-block;
@@ -1460,4 +1460,8 @@ Services list home page
 .bg-service-overview {
 	background-color: yellow;
     border-radius: 10px;
+}
+
+.bg-light-blue {
+background:var(--Green-white-gradient,linear-gradient(180deg,#C0EAFF 0%,#FFF 84.35%));
 }

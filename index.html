@@ -1,671 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>InfyniteWatchPro – Professional Security Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a class="wa-btn" href="https://wa.me/233500000000?text=Hello%20InfyniteWatchPro%2C%20I%20need%20a%20security%20solution." target="_blank" aria-label="Chat on WhatsApp">
+  <div class="wa-tooltip">Chat with us</div>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
 
-    <head>
-        <meta charset="utf-8" name="" content="Best BPO Services|Best Digital Marketing|Best APP Development|Best Staffing Services">
-        <title>InfyniteTech|BPO Services|Digital Marketing Services|APP Development Services|Staffing Services</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<!-- NAV -->
+<nav id="navbar">
+  <a class="nav-logo" href="#">
+    <svg viewBox="0 0 36 36">
+      <ellipse cx="18" cy="18" rx="14" ry="9" stroke="#E83A2F" stroke-width="1.6" fill="none"/>
+      <circle cx="18" cy="18" r="4.5" fill="#0D1B3E"/>
+      <circle cx="18" cy="18" r="2" fill="#fff"/>
+      <path d="M8 12 Q4 4 0 12" stroke="#E83A2F" stroke-width="0.8" fill="none" opacity="0.4" transform="translate(9,6)"/>
+    </svg>
+    <span class="nav-logo-text">Infynite<span>Watch</span>Pro</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#contact-form">Contact</a></li>
+  </ul>
+  <a href="#contact-form" class="nav-cta">Get a Quote</a>
+</nav>
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&amp;display=swap" rel="stylesheet">
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+  <div style="position:relative;z-index:1;">
+    <div class="hero-badge">Professional Security · 24/7 Coverage</div>
+    <h1 class="hero-title">
+      <span class="outline">Security</span>
+      <span class="accent">Without Limits.</span>
+    </h1>
+    <p class="hero-sub">Expert CCTV installation, maintenance, configuration, repair, monitoring and access control — keeping your property always protected.</p>
+    <div class="hero-btns">
+      <a href="#services" class="btn-primary">Explore Services</a>
+      <a href="#contact-form" class="btn-outline">Free Consultation →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">500<span>+</span></div><div class="stat-label">Projects Completed</div></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><div class="stat-num">24<span>/7</span></div><div class="stat-label">Active Monitoring</div></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><div class="stat-num">98<span>%</span></div><div class="stat-label">Client Satisfaction</div></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><div class="stat-num">10<span>+</span></div><div class="stat-label">Years Experience</div></div>
+    </div>
+  </div>
+</section>
 
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <div class="services-head reveal">
+      <div class="section-tag">What we do</div>
+      <h2 class="section-title">Complete Security Solutions</h2>
+      <p class="section-sub">From installation to round-the-clock monitoring — we handle every aspect of your security infrastructure.</p>
+    </div>
+    <div class="services-grid reveal">
+      <div class="svc-card">
+        <div class="svc-num">01</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M3 12h3M18 12h3M12 3v3M12 18v3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></div>
+        <h3 class="svc-title">CCTV Installation</h3>
+        <p class="svc-desc">Professional on-site assessment and full installation of IP, analog, PTZ, and HD cameras tailored to your property layout.</p>
+        <ul class="svc-features"><li>Indoor & outdoor camera placement</li><li>HD, 4K & night-vision systems</li><li>DVR / NVR setup & cabling</li><li>Customized coverage planning</li></ul>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">02</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <h3 class="svc-title">Maintenance</h3>
+        <p class="svc-desc">Scheduled preventive maintenance to keep your cameras and security systems performing at peak efficiency year-round.</p>
+        <ul class="svc-features"><li>Regular system health checks</li><li>Lens cleaning & realignment</li><li>Firmware & software updates</li><li>Monthly & annual plans available</li></ul>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">03</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+        <h3 class="svc-title">Configuration</h3>
+        <p class="svc-desc">Expert setup of recording schedules, motion detection zones, alerts, remote access and smart analytics for your system.</p>
+        <ul class="svc-features"><li>Remote viewing setup (mobile/PC)</li><li>Motion zones & alert triggers</li><li>Cloud & local storage config</li><li>Smart AI detection features</li></ul>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">04</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3 class="svc-title">Repair & Fault-Fixing</h3>
+        <p class="svc-desc">Fast diagnosis and repair of faulty cameras, damaged cables, recorder failures, connectivity issues and power problems.</p>
+        <ul class="svc-features"><li>On-site fault diagnosis</li><li>Camera & DVR/NVR repairs</li><li>Cable replacement & re-routing</li><li>Same-day emergency service</li></ul>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">05</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M1 6l5.5 5.5L9 9l6 6 3-3 5 5"/><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3 class="svc-title">24/7 Monitoring</h3>
+        <p class="svc-desc">Round-the-clock live monitoring with real-time alert notifications, incident response and detailed reporting dashboards.</p>
+        <ul class="svc-features"><li>Live remote monitoring center</li><li>Instant mobile notifications</li><li>Incident logging & reporting</li><li>Monthly analytics summaries</li></ul>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">06</div>
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h3 class="svc-title">Access Control</h3>
+        <p class="svc-desc">Intelligent entry management using key cards, biometrics, PIN pads and intercoms — integrated with your CCTV system.</p>
+        <ul class="svc-features"><li>Biometric & card reader systems</li><li>Electric gate & door control</li><li>Visitor management portals</li><li>Time-based access scheduling</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="section-inner">
+    <div class="gallery-head reveal">
+      <div class="section-tag">Our Work</div>
+      <h2 class="section-title">Projects & Installations</h2>
+      <p class="section-sub">A snapshot of real installations we've completed for homes, businesses and institutions.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gallery-item"><div class="gallery-inner"><div class="gallery-tag">Warehouse</div><div class="gallery-img-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><circle cx="12" cy="10" r="2"/></svg></div><div class="gallery-label">Multi-Camera Warehouse Install</div><div class="gallery-sub">32-camera HD system · Tema Industrial</div></div></div>
+      <div class="gallery-item"><div class="gallery-inner"><div class="gallery-tag">Hotel</div><div class="gallery-img-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><div class="gallery-label">Hotel Perimeter Security</div><div class="gallery-sub">PTZ + fixed cameras · Kumasi</div></div></div>
+      <div class="gallery-item"><div class="gallery-inner"><div class="gallery-tag">Office</div><div class="gallery-img-icon"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><div class="gallery-label">Biometric Access Control</div><div class="gallery-sub">Fingerprint + card system</div></div></div>
+      <div class="gallery-item"><div class="gallery-inner"><div class="gallery-tag">Residential</div><div class="gallery-img-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><div class="gallery-label">Home Security Package</div><div class="gallery-sub">8-camera 4K system · East Legon</div></div></div>
+      <div class="gallery-item"><div class="gallery-inner"><div class="gallery-tag">Retail</div><div class="gallery-img-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M1 6l5.5 5.5L9 9l6 6 3-3 5 5"/></svg></div><div class="gallery-label">Retail Store Monitoring</div><div class="gallery-sub">Live remote feed · Accra Mall</div></div></div>
+    </div>
+  </div>
+</section>
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="section-inner">
+    <div class="pricing-head reveal">
+      <div class="section-tag">Packages</div>
+      <h2 class="section-title">Simple, Transparent Pricing</h2>
+      <p class="section-sub">Choose the package that fits your needs. All plans include installation, warranty and after-sales support.</p>
+    </div>
+    <div class="pricing-grid reveal">
+      <!-- Basic -->
+      <div class="price-card">
+        <div class="price-plan">Starter</div>
+        <div class="price-amount"><sup>GH₵</sup>1,500<sub>/install</sub></div>
+        <p class="price-desc">Perfect for small homes or single-room businesses needing basic coverage.</p>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>4 HD cameras (1080p)</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>DVR + 1TB storage</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Mobile app viewing</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>1-year warranty</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Basic configuration</li>
+        </ul>
+        <a href="#contact-form" class="price-btn price-btn-outline">Get Started</a>
+      </div>
+      <!-- Pro (featured) -->
+      <div class="price-card featured">
+        <span class="price-badge">Most Popular</span>
+        <div class="price-plan">Professional</div>
+        <div class="price-amount"><sup>GH₵</sup>3,800<sub>/install</sub></div>
+        <p class="price-desc">Ideal for offices, shops and mid-size properties needing full coverage + monitoring.</p>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>8 cameras (4K Ultra HD)</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>NVR + 4TB cloud backup</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>24/7 remote monitoring</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Motion alerts & AI detection</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Access control (2 doors)</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>2-year warranty + maintenance</li>
+        </ul>
+        <a href="#contact-form" class="price-btn price-btn-solid">Get Started</a>
+      </div>
+      <!-- Enterprise -->
+      <div class="price-card">
+        <div class="price-plan">Enterprise</div>
+        <div class="price-amount"><sup></sup>Custom<sub> quote</sub></div>
+        <p class="price-desc">For large facilities, institutions and multi-site deployments with advanced requirements.</p>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Unlimited cameras + PTZ</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Dedicated NVR servers</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Multi-site management</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Full access control system</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>SLA-backed 24/7 support</li>
+          <li><span class="price-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>Dedicated account manager</li>
+        </ul>
+        <a href="#contact-form" class="price-btn price-btn-outline">Request Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-
-        <link rel="icon" type="image/png" sizes="32x32" href="img/logo-no-background.png">
-    </head>
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+<!-- WHY US -->
+<section class="why" id="why">
+  <div class="section-inner">
+    <div class="why-grid">
+      <div>
+        <div class="section-tag reveal">Why choose us</div>
+        <h2 class="section-title reveal">Always On. Always <span style="color:var(--red);font-style:italic;">Watching.</span></h2>
+        <p class="section-sub reveal" style="margin-bottom:0">We bring professional-grade security expertise to homes, businesses and institutions across the region.</p>
+        <div class="why-list reveal">
+          <div class="why-item"><div class="why-item-num">01</div><div><h4>Certified Technicians</h4><p>Our team holds industry certifications and brings years of hands-on field experience to every installation.</p></div></div>
+          <div class="why-item"><div class="why-item-num">02</div><div><h4>Brand-Agnostic Solutions</h4><p>We work with Hikvision, Dahua, Axis, Bosch, and more — recommending what fits your needs.</p></div></div>
+          <div class="why-item"><div class="why-item-num">03</div><div><h4>Post-Installation Support</h4><p>Dedicated after-sales support with service-level agreements and priority response guaranteed.</p></div></div>
+          <div class="why-item"><div class="why-item-num">04</div><div><h4>Transparent Pricing</h4><p>Detailed quotes upfront — no hidden charges, no surprises. Competitive rates with flexible packages.</p></div></div>
         </div>
-        <!-- Spinner End -->
+      </div>
+      <div class="why-visual reveal">
+        <div class="why-circle-outer">
+          <div class="orbit-dot" style="top:-5px;left:50%;transform:translateX(-50%)"></div>
+          <div class="orbit-dot" style="bottom:-5px;left:50%;transform:translateX(-50%);background:var(--navy);box-shadow:0 0 10px rgba(13,27,62,0.4);"></div>
+        </div>
+        <div class="why-circle-inner"></div>
+        <div class="why-circle-core"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="why-pill" style="top:15%;left:0;">📹 HD Cameras</div>
+        <div class="why-pill" style="top:15%;right:0;">🔒 Access Control</div>
+        <div class="why-pill" style="bottom:20%;left:5%;">📡 Remote Monitor</div>
+        <div class="why-pill" style="bottom:20%;right:5%;">🛡️ 24/7 Support</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="topbar d-flex align-items-center" style="max-width: 100%;">
-            <div class="container-fluid d-flex justify-content-md-between">
-              <div class="d-flex contact-info align-items-center">
-                <i class="bi bi-envelope align-items-center text-white">
-                    <a href="mailto:contact@infynitetech.com" class="text-white"> contact@infynitetech.com</a>
-                </i>
-              </div>
-              <div class="d-flex align-items-center">
-                <i class="fas fa-share fa-1x text-secondary"></i>
-                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            </div>
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="section-inner">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-tag">How it works</div>
+      <h2 class="section-title">Simple 4-Step Process</h2>
+      <p class="section-sub" style="margin:0 auto;">From first contact to a fully operational system — we make it straightforward.</p>
+    </div>
+    <div class="process-steps reveal">
+      <div class="process-step"><div class="step-circle">1</div><div class="step-title">Consultation</div><p class="step-desc">We assess your premises, understand your needs and recommend the right solution.</p></div>
+      <div class="process-step"><div class="step-circle">2</div><div class="step-title">Custom Quote</div><p class="step-desc">Receive a detailed transparent proposal with equipment specs and pricing.</p></div>
+      <div class="process-step"><div class="step-circle">3</div><div class="step-title">Installation</div><p class="step-desc">Certified technicians complete the job neatly and efficiently, minimising disruption.</p></div>
+      <div class="process-step"><div class="step-circle">4</div><div class="step-title">Handover & Support</div><p class="step-desc">Full system demo, remote access training, and ongoing support from our team.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="section-inner">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-tag">Client reviews</div>
+      <h2 class="section-title">Trusted by Hundreds</h2>
+    </div>
+    <div class="testi-grid reveal">
+      <div class="testi-card"><div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div><p class="testi-quote">"InfyniteWatchPro installed 12 cameras across our warehouse. Professional, tidy work and the remote viewing setup is flawless. Highly recommend."</p><div class="testi-author"><div class="testi-avatar">KA</div><div><div class="testi-name">Kwame Asante</div><div class="testi-role">Warehouse Manager, Accra</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div><p class="testi-quote">"They responded within hours for an emergency repair. Fixed our entire DVR system and had us back online the same day. Outstanding service."</p><div class="testi-author"><div class="testi-avatar">SP</div><div><div class="testi-name">Sandra Poku</div><div class="testi-role">Hotel Owner, Kumasi</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div><p class="testi-quote">"The access control biometric system they installed has completely transformed how we manage entry to our office. Very professional team."</p><div class="testi-author"><div class="testi-avatar">JB</div><div><div class="testi-name">James Boateng</div><div class="testi-role">Operations Director, Tema</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="contact-section" id="contact-form">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="section-tag">Get in touch</div>
+        <h2 class="section-title">Let's Secure Your Property</h2>
+        <p class="section-sub">Fill out the form and our team will get back to you within 24 hours with a free consultation.</p>
+        <div class="contact-info-items">
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="contact-info-label">Address</div><div class="contact-info-value">123 Security Avenue, East Legon, Accra</div></div>
           </div>
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid header position-relative overflow-hidden p-0">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-1">
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/logo-no-background.png" class="logo-img" alt="InfyniteTech">
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active fw-bold text-uppercase">Home</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Our Company</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="about.html" class="dropdown-item text-uppercase">About Us</a>
-                                <a href="csr.html" class="dropdown-item text-uppercase">Corporate Social Resposibility (CSR)</a>
-                                <a href="#testimonial" class="dropdown-item text-uppercase">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="#services" class="nav-item nav-link text-uppercase">Services</a>
-                        <a href="#industries" class="nav-item nav-link text-uppercase">Industries</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Join Us</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="career.html" class="dropdown-item text-uppercase">Career</a>
-                                <a href="career.html#internship" class="dropdown-item text-uppercase">Internship</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link text-uppercase">Contact Us</a>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Header Start -->
-                    <div class="hero-header dark-backgroud overflow-hidden px-5">
-                        <div class="row gy-5 align-items-center">
-                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                                <h1 class="display-4 mb-4 text-white">Welcome To <font color="#0264B9">Infynite</font><font color="#ED0D01">Tech</font></h1>
-                                <p class="fs-5 mb-4 text-white">We are team of talented experts providing consulting services. We are driven 
-                                    by a single mission to deliver smart, scalable and reliable technology  solutions that help businesses grow and thrive in a digital-first world.</p>
-                                <a href="about.html" class="btn btn-primary py-2 px-5">About More</a>
-                            </div>
-                            <div class="col-lg-6">
-                                    <h3 class="fw-bold text-white wow fadeInDown" data-wow-delay="0.1s">Are you ready to start a project with us?</h3>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.2s">Enterprise Software Development</p>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.3s">Digital & Brand Marketing</p>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.4s">Mobile App Development</p>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.5s">Staffing Services</p>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.6s">IT Consultancy</p>
-                                    <p class="banner-service-list wow fadeInRight" data-wow-delay="0.7s">BPO Services</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- Navbar & Header End -->
-
-
-        <!-- About Start -->
-        <div class="container-fluid overflow-hidden bg-light-blue mt-3">
-            <div class="container py-5">
-                <div class="row g-4">
-                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.3s">
-                        <h4 class="mb-1 text-primary fw-bold sub-heading"><font style="color: #0264B9;">Welcome To</font> InfyniteTech</h4>
-                        <h4 class="mb-2 fw-bold display-5">We are more than just an IT service provider — we are your 
-                            trusted technology partner in innovation and growth</h4>
-                        <p class="mb-4" style="color: #1a3668;">At <font color="#0264B9">Infynite</font><font color="#F90C00">Tech</font>, we are driven by a single mission — to deliver smart, scalable, and reliable technology solutions that help businesses grow and thrive in a digital-first world.</p>
-                           <p style="color: #1a3668;">As a dynamic IT services and consulting company, we specialise in a comprehensive range of offerings, including Software Development, Application Development & Maintenance, Training & Development, Software Quality Assurance, Mobile App Development, Staffing Services, Digital Marketing, and Business Process Outsourcing (BPO).
-                        </p>
-                        <a href="about.html" class="btn btn-primary py-2 px-4">About More</a>
-                    </div>
-                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="RotateMoveLeft">
-                            <img src="img/team.jpg" class="img-fluid w-100" alt="" style="border-top-right-radius: 10px;
-                            border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
-                            box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><div class="contact-info-label">Phone</div><div class="contact-info-value">+233 50 000 0000</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-info-label">Email</div><div class="contact-info-value">info@Infynitewatchpro.com</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div><div class="contact-info-label">Working Hours</div><div class="contact-info-value">Mon – Sat: 8:00am – 6:00pm</div></div>
+          </div>
         </div>
-        <!-- About End -->
-
-            <!--Highlights Start-->
-            <section class="support_section bg-azure" id="support">
-                <div class="container py-5">
-                    <div class="row" style="color: #1a3668;">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Strategic Growth</h4>
-                                <p class="pp">Substantial growth in revenue as well as in Head count year on year.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Dedicated support</h4>
-                                <p class="pp">Our dedicated support service will ensure continuous improvement of your web app while achieving smoother operations.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Industries Served</h4>
-                                <p class="pp">Retails, Hospitality, RealEstate, E-commerce,  Travel & Tourism  & more.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Skilled Resources</h4>
-                                <p class="pp">Growing resource pool of employees in various technologies and Our support team is always on standby, 
-                                    ensuring your operations never face a cloudy day.
-                                </p>
-                        </div>
-                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Trusted Partner</h4>
-                                <p class="pp">We build lasting partnerships based on trust, transparency, and results.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                <h4 class="text-primary fw-bold">Customized solutions</h4>
-                                <p class="pp">We design custom web applications that meet business goals and address their challenges in the best possible manner.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--Highlights End-->
-
-
-        <!-- Service Start -->
-        <div class="container-fluid service py-5 bg-light-blue mt-3" id="services">
-            <div class="container mt-4">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h5 class="mb-1 text-primary fw-bold sub-heading"><font style="color: #0264B9;">Our</font> Services</h5>
-                    <h5 class="display-5 mb-3"><i> What Services We Provide</i></h5>
-                    <p class="mb-0" style="color: #1a3668;"><i> We provide comprehensive various services designed to streamline your operations and support your business growth.</i>
-                    </p>
-                </div>
-      
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Enterprise Software Development</h5>
-                            <p style="color: #000;">We deliver custom-tailored software solutions that drive innovation, 
-                                    enhance productivity, and scale with your business needs.</p>
-                            <a href="service.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Digital & Brand Marketing</h5>
-                            <p style="color: #000;">Our Digital Marketing Services are crafted to boost brand visibility, 
-                                        generate high-quality leads, and deliver measurable ROI. All while keeping you ahead of the competition.</p>
-                            <a href="digital.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Staffing and Recruitment</h5>
-                            <p style="color: #000;">Our comprehensive staffing services are designed to meet the evolving 
-                                    needs of modern businesses, offering both IT and Non-IT recruitment solutions.</p>
-                            <a href="staffing.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">BPO Services</h5>
-                            <p style="color: #000;">Our Business Process Outsourcing (BPO) Services empower businesses 
-                                to outsource non-core functions efficiently.</p>
-                            <a href="bpo.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Mobile App Development</h5>
-                            <p style="color: #000;"> Our mobile app development services are designed to bring your vision to life 
-                                with innovation, speed, and precision.</p>
-                            <a href="mobile-dev.html" class="read-more-btn text-white">Read More </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Web Development</h5>
-                            <p style="color: #000;">We offer end-to-end design, development, and support services to 
-                                help businesses of all sizes establish a strong online presence.</p>
-                            <a href="web-dev.html" class="read-more-btn text-white">Read More </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">IT Consultancy</h5>
-                            <p style="color: #000;">We provide expert IT consultancy services designed to help businesses 
-                                leverage technology effectively, streamline operations, reduce costs.</p>
-                            <a href="it-consult.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">IT Training & Development</h5>
-                            <p style="color: #000;">Empower your team with the skills, knowledge, and expertise needed to 
-                                thrive in today’s fast-evolving digital landscape.</p>
-                           <a href="it-training.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">UI/UX Design</h5>
-                            <p style="color: #000;">Our UI/UX Design Services are focused on creating intuitive, user-centered 
-                                digital experiences that not only look stunning but business growth.</p>
-                           <a href="ux.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-
-                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Application Maintenance</h5>
-                            <p style="color: #000;">Ensuring your software continues to perform at its peak is just as important as 
-                                building it right in the first place.</p>
-                           <a href="support.html" class="read-more-btn text-white">Read More </a>
-                        </div>
-                    </div>
-
-                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Custom API Development</h5>
-                            <p style="color: #000;">We specialize in building custom API solutions that enable seamless 
-                                communication between systems.</p>
-                           <a href="api-dev.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-services-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                            <h5 style="color: #1a3668;" class="fw-bold text-uppercase text-primary">Software Quality Assurance</h5>
-                            <p style="color: #000;">Our Software Quality Assurance (SQA) Services ensure your applications 
-                                meet the highest standards of functionality.</p>
-                           <a href="qa.html" class="read-more-btn text-white">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="contact-form-box reveal">
+        <div id="contactForm">
+          <h3 style="font-family:var(--font-display);font-size:22px;font-weight:800;color:var(--navy);margin-bottom:6px;">Send us a Message</h3>
+          <p style="font-size:14px;color:var(--gray);margin-bottom:28px;">We'll respond within 24 hours.</p>
+          <div class="form-row">
+            <div class="form-group"><label>First Name</label><input type="text" placeholder="John" id="fname"/></div>
+            <div class="form-group"><label>Last Name</label><input type="text" placeholder="Mensah" id="lname"/></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+233 50 000 0000" id="phone"/></div>
+            <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@email.com" id="email"/></div>
+          </div>
+          <div class="form-group"><label>Service Required</label>
+            <select id="service">
+              <option value="">Select a service...</option>
+              <option>CCTV Installation</option>
+              <option>Maintenance</option>
+              <option>Configuration</option>
+              <option>Repair & Fault-Fixing</option>
+              <option>24/7 Monitoring</option>
+              <option>Access Control</option>
+              <option>Full Security Package</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Property Type</label>
+            <select id="property">
+              <option value="">Select property type...</option>
+              <option>Residential Home</option>
+              <option>Office / Corporate</option>
+              <option>Retail / Shop</option>
+              <option>Warehouse / Factory</option>
+              <option>Hotel / Hospitality</option>
+              <option>School / Institution</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Message</label><textarea placeholder="Tell us about your security needs, property size, or any specific requirements..." id="message"></textarea></div>
+          <button class="form-submit" onclick="submitForm()">Send Message →</button>
         </div>
-        <!-- Service End -->
-
-        <!-- Industries Start -->
-        <div class="container-fluid blog bg-light-blue py-5 mt-3" id="industries">
-            <div class="container py-5 mt-4">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary fw-bold sub-heading"><font style="color: #0264B9;">Industry</font> Sepcific Expertise</h4>
-                    <h5 class="display-5 mb-4"><i> Empowering Businesses with Cutting-Edge Technology Solutions</i></h5>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="blog-item">
-                            <div class="blog-content text-dark">
-                                <h5 class="industries display-8">E-Commerce</h5>
-                            </div>
-                            <div class="blog-img">
-                                <img src="img/ecom.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="blog-item">
-                            <div class="blog-content text-dark">
-                                <h5 class="industries display-8">Real Estate</h5>
-                            </div>
-                            <div class="blog-img">
-                                <img src="img/realEst.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="blog-item">
-                            <div class="blog-content text-dark">
-                                <h5 class="industries display-8">Hospitality</h5>
-                            </div>
-                            <div class="blog-img">
-                                <img src="img/hospitality.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Manufacturing</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/manufact.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Retail & Business</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                             <img src="img/retail.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">HealthCare</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/healthcare.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Logistics</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/logistics.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Education</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/education.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Travel & Tourism</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/tourism.png" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Media</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/media.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Insurance</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/insurance.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="blog-content text-dark">
-                            <h5 class="industries display-8">Fintech</h5>
-                        </div>
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/fintech.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="form-success" id="formSuccess">
+          <div class="form-success-icon">✅</div>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out. Our team will contact you within 24 hours to discuss your security needs.</p>
         </div>
-        <!-- Industries End -->
-
-        <!-- Client trust start-->
-        <div class="container-fluid overflow-hidden bg-light-blue mt-3">
-            <div class="container py-5">
-                <h4 class="text-primary fw-bold text-center"><font style="color: #0264B9;">Why</font> Our Client Trust Us</h4>
-                <h5 class="display-5 text-center"><i> Measuring Success Through Satisfaction</i></h5>
-                <div class="row g-2 py-5">
-                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.3s">
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> 24/7/365 Support When You Need It </p>
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> Tailored Solutions </p>
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> Proactive Monitoring & Maintenance </p>
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> Transparent Communication </p>
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> Continuous Improvement </p>
-                        <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> Client-Centric Partnership </p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex">
-                                    <i class="fas fa-newspaper fa-4x text-secondary"></i>
-                                    <div class="d-flex flex-column ms-3">
-                                        <h2 class="mb-0 fw-bold">110</h2>
-                                        <small class="text-dark">Created Projects</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex">
-                                    <i class="fas fa-users fa-4x text-secondary"></i>
-                                    <div class="d-flex flex-column ms-3">
-                                        <h2 class="mb-0 fw-bold">150</h2>
-                                        <small class="text-dark">Happy Clients</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="RotateMoveLeft">
-                            <img src="img/6909.jpg" class="img-fluid w-100 h-100" alt="" style="border-top-right-radius: 10px;
-                            border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
-                            box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px">
-                        </div>
-                    </div>
-                </div> 
-        </div>
+      </div>
     </div>
-        <!-- Client Trust End -->
+  </div>
+</section>
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light-blue mt-3" id="testimonial" style="color: #1a3668;">
-            <div class="container py-5 mt-4">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary fw-bold sub-heading">Testimonials</h4>
-                    <h5 class="display-5 mb-4"><i> What Our Client Say About Us</i></h5>
-                    <p class="mb-0"><i> We believe that technology should empower , not complicate. That’s why delivering exceptional customer satisfaction is at the core of everything we do. We don’t just provide IT solutions — we build lasting partnerships based on trust, transparency, and results.</i>
-                    </p>
-                </div>
-                <div class="testimonial-carousel owl-carousel wow zoomInDown" data-wow-delay="0.2s">
-                    <div class="testimonial-item" data-dot="">
-                        <div class="testimonial-inner text-center p-5">
-                            <div class="d-flex align-items-center justify-content-center mb-4">
-                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                                    <i class="fas fa-user fa-5x text-primary"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-2">Sharth Chandra</h5>
-                                    <p class="mb-0">Hyderabad, INDIA</p>
-                                </div>
-                            </div>
-                            <p class="fs-6"><i>Working with InfyniteTech has been a game-changer for our business. Their digital marketing strategies have significantly boosted our online visibility and customer engagement. From SEO to social media management, they’ve delivered consistent results that speak for themselves. Highly recommended!</i>
-                            </p>
-                            <div class="text-center">
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item" data-dot="">
-                        <div class="testimonial-inner text-center p-5">
-                            <div class="d-flex align-items-center justify-content-center mb-4">
-                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                                    <i class="fas fa-user fa-5x text-primary"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-2">Srikanth</h5>
-                                    <p class="mb-0">London, UK</p>
-                                </div>
-                            </div>
-                            <p class="fs-6"><i>We partnered with InfyniteTech for our data entry, payroll processing, and administrative tasks — and they've delivered consistent accuracy and efficiency. It’s allowed us to focus more on strategic growth while knowing our backend operations are in expert hands.</i>
-                            </p>
-                            <div class="text-center">
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item" data-dot="">
-                        <div class="testimonial-inner text-center p-5">
-                            <div class="d-flex align-items-center justify-content-center mb-4">
-                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px; border-radius: 50%;">
-                                    <i class="fas fa-user fa-5x text-primary"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-2">SR Khanna</h5>
-                                    <p class="mb-0">Hyderabad, INDIA</p>
-                                </div>
-                            </div>
-                            <p class="fs-6"><i>Outsourcing our customer service to InfyniteTech was one of the best decisions we made. Their team is professional, responsive, and well-trained. Our customer satisfaction scores have improved significantly, and we’ve been able to scale support during peak times without any hassle.</i>
-                            </p>
-                            <div class="text-center">
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial end -->
-
-        <div class="container-fluid overflow-hidden mt-3 bg-whychoose py-2" style="color: #1a3668; box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px">
-            <div class="wow fadeInLeft project-req" data-wow-delay="0.3s">
-                <h3 class="fw-bold text-white"> Are you ready to start a project with us?</h3>
-                    <p><a href="https://api.whatsapp.com/send/?phone=0000000000&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank"
-                        class="btn btn-primary py-3 px-5" style="float: right;">+91 0000000000</a>
-                    </p>
-            </div>
-            <div class="wow fadeInDown" data-wow-delay="0.3s"><p class="text-white text-center">Speak with our experts and get a free quote for your business.</p></div>
-        </div>
-
-        <!-- Footer Start -->
-       <div class="container-fluid footer wow fadeIn mt-4" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4">Company</h4>
-                        <a href="index.html#client-satisfy"> Why <font color="#0264B9">Infynite</font><font color="#F90C00">Tech</font>?</a>
-                        <a href="#services"> Our Services</a>
-                        <a href="about.html"> About Us</a>
-                        <a href="csr.html"> Corporate Resposibility</a>
-                        <a href="contact.html"> Get In Touch</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4">Quick Links</h4>
-                        <a href="about.html"> About Us</a>
-                        <a href="contact.html"> Contact Us</a>
-                        <a href="#"> Privacy Policy</a>
-                        <a href="#"> Terms & Conditions</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4">Services</h4>
-                        <a href="service.html"> Application Development</a>
-                        <a href="staffing.html"> Staffing Services</a>
-                        <a href="bpo.html"> BPO  Services</a>
-                        <a href="digital.html"> Digital Marketing</a>
-                        <a href="mobile-dev.html"> Mobile App Development</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4">Contact Info</h4>
-                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> 23/4, Pocharam, Uppal,Telangana, India</a>
-                        <a href=""><i class="fas fa-envelope me-2"></i> info@infynitetech.com</a>
-                        <a href=""><i class="fas fa-phone me-2"></i> +91 0000000000</a>
-                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +91 0000000000</a>
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-share fa-2x text-secondary me-2"></i>
-                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- CTA -->
+<section class="cta-section">
+  <div class="section-inner">
+    <div class="cta-box reveal">
+      <div class="section-tag" style="justify-content:center;">Get started today</div>
+      <h2 class="section-title">Ready to Secure Your Property?</h2>
+      <p class="section-sub">Contact us for a free site assessment and no-obligation quote. Our team is ready 24/7.</p>
+      <div class="cta-btns">
+        <a href="tel:+233500000000" class="btn-primary">📞 Call Us Now</a>
+        <a href="#contact-form" class="btn-outline">✉ Send a Message</a>
+      </div>
     </div>
-    <!-- Footer End -->
+  </div>
+</section>
 
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-2">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="text-center mb-md-0">
-                        <span class="text-white">© Copyright 2025 InfyniteTech All rights reserved.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="#" style="text-decoration:none;">
+        <svg width="32" height="32" viewBox="0 0 36 36">
+          <ellipse cx="18" cy="18" rx="14" ry="9" stroke="#E83A2F" stroke-width="1.6" fill="none"/>
+          <circle cx="18" cy="18" r="4.5" fill="#E83A2F"/>
+          <circle cx="18" cy="18" r="2" fill="#0D1B3E"/>
+        </svg>
+        <span class="nav-logo-text" style="color:#fff;">Infynite<span style="color:#E83A2F;">Watch</span>Pro</span>
+      </a>
+      <p>Professional CCTV installation, maintenance, monitoring and access control services. Always on. Always watching.</p>
+    </div>
+    <div class="footer-col"><h5>Services</h5><ul><li><a href="#services">Installation</a></li><li><a href="#services">Maintenance</a></li><li><a href="#services">Configuration</a></li><li><a href="#services">Repair</a></li><li><a href="#services">Monitoring</a></li><li><a href="#services">Access Control</a></li></ul></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="#why">About Us</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#testimonials">Reviews</a></li><li><a href="#contact-form">Contact</a></li></ul></div>
+    <div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:+233500000000">+233 50 000 0000</a></li><li><a href="mailto:info@Infynitewatchpro.com">info@Infynitewatchpro.com</a></li><li><a href="#">East Legon, Accra</a></li><li><a href="#">Mon–Sat: 8am – 6pm</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 <span>InfyniteWatchPro</span>. All rights reserved.</p>
+    <p>Professional Security · Zero Limits</p>
+  </div>
+</footer>
 
+<script>
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 80);
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+reveals.forEach(el => observer.observe(el));
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>  
-        
-        <a class="whatsapp-communication text-decoration-none" href="https://api.whatsapp.com/send/?phone=0000000000&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
-            <img src="img/whatsapp.png">
-           </a>
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  nav.style.padding = window.scrollY > 40 ? '12px 6%' : '18px 6%';
+});
 
-        
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    </body>
-
+function submitForm() {
+  const fname = document.getElementById('fname').value;
+  const email = document.getElementById('email').value;
+  const service = document.getElementById('service').value;
+  if (!fname || !email || !service) {
+    alert('Please fill in your name, email and select a service.');
+    return;
+  }
+  document.getElementById('contactForm').style.display = 'none';
+  document.getElementById('formSuccess').classList.add('show');
+}
+</script>
+</body>
 </html>
-
- 

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 85" width="560" height="85">
+
+  <!-- Monitor icon -->
+  <rect x="2" y="10" width="34" height="25" rx="3" fill="none" stroke="#E53935" stroke-width="2.2"/>
+  <line x1="19" y1="35" x2="19" y2="45" stroke="#E53935" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="11" y1="45" x2="27" y2="45" stroke="#E53935" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M8 22 Q19 13 30 22 Q19 31 8 22 Z" fill="none" stroke="#E53935" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle cx="19" cy="22" r="4" fill="none" stroke="#E53935" stroke-width="1.8"/>
+  <circle cx="19" cy="22" r="1.8" fill="#E53935"/>
+
+  <!-- Single text line - all 3 words in one text element using tspan -->
+  <!-- This guarantees zero gap between words -->
+  <text y="42"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-weight="750"
+    font-size="36"
+    letter-spacing="3">
+    <tspan x="42" fill="#1565C0">INFYNITE</tspan><tspan fill="#E53935">WATCH</tspan><tspan fill="#1565C0">PRO</tspan>
+  </text>
+
+  <!-- Slogan -->
+  <text x="42" y="66"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-style="italic"
+    font-weight="500"
+    font-size="11.5"
+    letter-spacing="1.2">
+    <tspan fill="#E53935">— </tspan><tspan fill="#1565C0">See Everything</tspan><tspan fill="#E53935"> · Miss Nothing</tspan><tspan fill="#1565C0"> —</tspan>
+  </text>
+
+</svg>

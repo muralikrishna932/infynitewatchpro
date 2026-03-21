@@ -59,7 +59,7 @@
   "logo": "https://www.infynitywatchpro.com/logo.png",
   "image": "https://www.infynitywatchpro.com/logo.png",
   "telephone": "+910000000000",
-  "email": "info@infynitywatchpro.com",
+  "email": "contact@infynitywatchpro.in",
   "slogan": "See Everything - Miss Nothing",
   "priceRange": "₹₹",
   "currenciesAccepted": "INR",
@@ -110,6 +110,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap"
     rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -175,7 +176,7 @@
 
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
-      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#gallery">Our Work</a></li>
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#why">Why Us</a></li>
       <li><a href="#contact-form">Contact</a></li>
@@ -206,7 +207,10 @@
         <a href="#services" class="btn-primary">Explore Services</a>
         <a href="#contact-form" class="btn-outline">Free Consultation →</a>
       </div>
-      <div class="hero-stats">
+    </div>
+  </section>
+
+  <div class="hero-stats">
         <div class="stat">
           <div class="stat-num">100<span>+</span></div>
           <div class="stat-label">Deployments</div>
@@ -227,8 +231,6 @@
           <div class="stat-label">Years Experience</div>
         </div>
       </div>
-    </div>
-  </section>
 
   <!-- SERVICES -->
   <section class="services" id="services">
@@ -706,55 +708,56 @@
           </div>
         </div>
         <div class="contact-form-box reveal">
-          <div id="contactForm">
-            <h3
-              style="font-family:var(--font-head);font-size:25px;font-weight:600;color:var(--navy);margin-bottom:6px;">
-              Send us a Message</h3>
-            <p style="font-size:14px;color:var(--gray);margin-bottom:28px;">We'll respond within 24 hours.</p>
+          <form id="contactForm" method="POST" autocomplete="off" action="contact_process.php" novalidate>
+            <h3 style="font-family:var(--font-head);font-size:25px;font-weight:600;color:var(--navy);margin-bottom:6px;">
+              Get a Free Quote</h3>
+            <p style="font-size:14px;color:var(--gray);margin-bottom:28px;">We'll review your requirements and respond within 24 hours.</p>
             <div class="form-row">
-              <div class="form-group"><label>First Name</label><input type="text" placeholder="John" id="fname" /></div>
-              <div class="form-group"><label>Last Name</label><input type="text" placeholder="Mensah" id="lname" />
-              </div>
+              <div class="form-group"><label for="first_name">First Name *</label><input type="text" id="first_name" name="first_name" placeholder="Ravi" required/></div>
+              <div class="form-group"><label for="last_name">Last Name *</label><input type="text" id="last_name" name="last_name" placeholder="Kumar" required/></div>
             </div>
             <div class="form-row">
-              <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+91 90000 00000"
-                  id="phone" /></div>
-              <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@email.com"
-                  id="email" /></div>
+              <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" placeholder="ravi@company.com" required/></div>
             </div>
-            <div class="form-group"><label>Service Required</label>
-              <select id="service">
+            <div class="form-group"><label for="subject">Service Required</label>
+              <select id="subject" name="subject" required>
                 <option value="">Select a service...</option>
-                <option>CCTV Installation</option>
-                <option>Maintenance</option>
-                <option>Configuration</option>
-                <option>Repair & Fault-Fixing</option>
-                <option>24/7 Monitoring</option>
-                <option>Access Control</option>
-                <option>Full Security Package</option>
+                <option value="CCTV Installation">CCTV Installation</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="Configuration">Configuration</option>
+                <option value="Repair & Fault-Fixing">Repair & Fault-Fixing</option>
+                <option value="24/7 Monitoring">24/7 Monitoring</option>
+                <option value="Access Control">Access Control</option>
+                <option value="Full Security Package">Full Security Package</option>
               </select>
             </div>
-            <div class="form-group"><label>Property Type</label>
-              <select id="property">
+            <div class="form-group"><label for="property">Property Type</label>
+              <select id="property" name="property" required>
                 <option value="">Select property type...</option>
-                <option>Residential Home</option>
-                <option>Office / Corporate</option>
-                <option>Retail / Shop</option>
-                <option>Warehouse / Factory</option>
-                <option>Hotel / Hospitality</option>
-                <option>School / Institution</option>
-                <option>Other</option>
+                <option value="Residential Home">Residential Home</option>
+                <option value="Office / Corporate">Office / Corporate</option>
+                <option value="Retail / Shop">Retail / Shop</option>
+                <option value="Warehouse / Factory">Warehouse / Factory</option>
+                <option value="Hotel / Hospitalit">Hotel / Hospitality</option>
+                <option value="School / Institution">School / Institution</option>
+                <option value="Other">Other</option>
               </select>
             </div>
-            <div class="form-group"><label>Message</label><textarea
+            <div class="form-group"><label for="message">Message *</label><textarea
                 placeholder="Tell us about your security needs, property size, or any specific requirements..."
-                id="message"></textarea></div>
-            <button class="form-submit" onclick="submitForm()">Send Message →</button>
-          </div>
-          <div class="form-success" id="formSuccess">
-            <div class="form-success-icon">✅</div>
-            <h3>Message Sent!</h3>
-            <p>Thank you for reaching out. Our team will contact you within 24 hours to discuss your security needs.</p>
+                id="message" name="message"></textarea></div>
+                <!-- Math CAPTCHA -->
+                <div class="captcha-box">
+                  <span class="captcha-question" id="captchaQ">Loading...</span>
+                  <span class="captcha-eq">=</span>
+                  <input class="captcha-input" type="number" id="captchaAnswer" name="captcha_answer" placeholder="?" required
+                    aria-label="CAPTCHA answer" />
+                  <input type="hidden" id="captchaExpected" name="captcha_expected" />
+                  <span class="captcha-label">Verify</span>
+                </div>
+            <button class="form-submit" type="submit">Send Message →</button>
+            </form>
+             <div id="alert" class="alert" style="margin-top: 15px;"></div>
           </div>
         </div>
       </div>
@@ -858,63 +861,7 @@
       <p>Professional Security · Zero Limits</p>
     </div>
   </footer>
-
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script>
-    const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((e, i) => {
-        if (e.isIntersecting) {
-          setTimeout(() => e.target.classList.add('visible'), i * 80);
-          observer.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.08 });
-    reveals.forEach(el => observer.observe(el));
-
-    window.addEventListener('scroll', () => {
-      const nav = document.getElementById('navbar');
-      nav.style.padding = window.scrollY > 40 ? '12px 6%' : '18px 6%';
-    });
-
-    function submitForm() {
-      const fname = document.getElementById('fname').value;
-      const email = document.getElementById('email').value;
-      const service = document.getElementById('service').value;
-      if (!fname || !email || !service) {
-        alert('Please fill in your name, email and select a service.');
-        return;
-      }
-      document.getElementById('contactForm').style.display = 'none';
-      document.getElementById('formSuccess').classList.add('show');
-    }
-  </script>
-
-  <script>
-    function toggleMenu() {
-      const menu = document.getElementById('mobileMenu');
-      const overlay = document.getElementById('menuOverlay');
-      const btn = document.getElementById('hamburgerBtn');
-      const isOpen = menu.classList.contains('open');
-      if (isOpen) {
-        closeMenu();
-      } else {
-        menu.classList.add('open');
-        overlay.classList.add('open');
-        btn.classList.add('open');
-        document.body.style.overflow = 'hidden';
-      }
-    }
-    function closeMenu() {
-      document.getElementById('mobileMenu').classList.remove('open');
-      document.getElementById('menuOverlay').classList.remove('open');
-      document.getElementById('hamburgerBtn').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-    // Close on ESC key
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
-  </script>
-
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

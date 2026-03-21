@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+
+  <!-- Background rounded square - navy blue -->
+  <rect width="64" height="64" rx="12" fill="#0D1B3E"/>
+
+  <!-- Red accent top bar -->
+  <rect x="0" y="0" width="64" height="5" rx="4" fill="#E53935"/>
+
+  <!-- I - blue -->
+  <text x="5" y="46"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-weight="900"
+    font-size="38"
+    fill="#1565C0">I</text>
+
+  <!-- W - red -->
+  <text x="18" y="46"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-weight="900"
+    font-size="38"
+    fill="#E53935">W</text>
+
+  <!-- P - blue -->
+  <text x="46" y="46"
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-weight="900"
+    font-size="38"
+    fill="#1565C0">P</text>
+
+  <!-- Small eye icon below text -->
+  <ellipse cx="32" cy="56" rx="10" ry="4" fill="none" stroke="#E53935" stroke-width="1.2"/>
+  <circle cx="32" cy="56" r="2" fill="#E53935"/>
+
+</svg>

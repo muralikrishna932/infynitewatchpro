@@ -71,7 +71,7 @@ nav {
   position: relative; min-height: 100vh;
   display: flex; align-items: center; justify-content: center;
   padding: 150px 6% 80px; text-align: center; overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

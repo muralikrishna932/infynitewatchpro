@@ -1,49 +1,26 @@
 
 (function () {
 
-     const reveals = document.querySelectorAll('.reveal');
-     const observer = new IntersectionObserver((entries) => {
-      entries.forEach((e, i) => {
-        if (e.isIntersecting) {
-          setTimeout(() => e.target.classList.add('visible'), i * 80);
-          observer.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.08 });
-    reveals.forEach(el => observer.observe(el));
-
-    window.addEventListener('scroll', () => {
-      const nav = document.getElementById('navbar');
-      nav.style.padding = window.scrollY > 40 ? '12px 6%' : '18px 6%';
-    });
-
-     function toggleMenu() {
-      const menu = document.getElementById('mobileMenu');
-      const overlay = document.getElementById('menuOverlay');
-      const btn = document.getElementById('hamburgerBtn');
-      const isOpen = menu.classList.contains('open');
-      if (isOpen) {
-        closeMenu();
-      } else {
-        menu.classList.add('open');
-        overlay.classList.add('open');
-        btn.classList.add('open');
-        document.body.style.overflow = 'hidden';
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        observer.unobserve(e.target);
       }
-    }
-    function closeMenu() {
-      document.getElementById('mobileMenu').classList.remove('open');
-      document.getElementById('menuOverlay').classList.remove('open');
-      document.getElementById('hamburgerBtn').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-    // Close on ESC key
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+    });
+  }, { threshold: 0.08 });
+  reveals.forEach(el => observer.observe(el));
 
-/*=====================================
-	Contact Form Validation and CAPTCHA
-=======================================*/
-// ── CAPTCHA generator ──────────────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    nav.style.padding = window.scrollY > 40 ? '12px 6%' : '18px 6%';
+  });
+
+  /*=====================================
+    Contact Form Validation and CAPTCHA
+  =======================================*/
+  // ── CAPTCHA generator ──────────────────────────────────────────────
   function generateCaptcha() {
     const a = Math.floor(Math.random() * 12) + 1;
     const b = Math.floor(Math.random() * 12) + 1;
@@ -78,7 +55,7 @@
   }
 
   // ── AJAX form submission ───────────────────────────────────────────
-  document.getElementById('contactForm').addEventListener('submit', async function(e) {
+  document.getElementById('contactForm').addEventListener('submit', async function (e) {
     e.preventDefault();
     hideAlert();
 
@@ -110,7 +87,7 @@
 
     // 3. CAPTCHA check
     const expected = parseInt(document.getElementById('captchaExpected').value);
-    const given    = parseInt(document.getElementById('captchaAnswer').value);
+    const given = parseInt(document.getElementById('captchaAnswer').value);
     if (isNaN(given) || given !== expected) {
       showAlert('error', '⚠  Incorrect CAPTCHA answer. Please try again.');
       generateCaptcha();

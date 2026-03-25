@@ -2,7 +2,7 @@
   --navy: #051441;
   --navy2: #162248;
   --navy3: #1A2960;
-  --red: #E83A2F;
+  --red: #f9102d;
   --red2: #C42E24;
   --red-light: rgba(232, 58, 47, 0.08);
   --amber: #F4B942;
@@ -454,7 +454,7 @@ section {
 }
 
 .svc-card {
-  background: var(--card-bg);
+  background: #BCDBFF;
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 40px 36px;
@@ -534,10 +534,11 @@ section {
 }
 
 .svc-desc {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--navy);
   line-height: 1.75;
   margin-bottom: 22px;
+  font-weight: 500;
 }
 
 .svc-features {
@@ -549,10 +550,11 @@ section {
 
 .svc-features li {
   font-size: 14px;
-  color: var(--gray2);
+  color: var(--navy);
   display: flex;
   align-items: center;
   gap: 10px;
+  font-weight: 500;
 }
 
 .svc-features li::before {
@@ -1863,7 +1865,7 @@ footer {
    .hero-desc{max-width:350px;}
 
    .hero-img{max-width:480px;}
-
+   
   .process-steps {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -2353,4 +2355,13 @@ footer {
   .faq-item.open .faq-answer {
     padding: 0 16px 18px;
   }
+}
+
+.about-line-sub {
+  display: block;
+  font-size: 1.20em;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.03em;
+  background: #0a29a8;
 }

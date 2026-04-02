@@ -122,4 +122,7 @@
     }
   });
 
+  //AI Agent
+   window.chtlConfig = { chatbotId: "2446289796" };
+
 })();

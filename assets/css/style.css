@@ -1570,8 +1570,8 @@ footer {
 /* ── WHATSAPP BUTTON ── */
 .wa-btn {
   position: fixed;
-  bottom: 28px;
-  right: 28px;
+  bottom: 150px;
+  right: 20px;
   z-index: 999;
   width: 58px;
   height: 58px;

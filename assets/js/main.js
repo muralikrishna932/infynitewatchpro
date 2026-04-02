@@ -123,6 +123,6 @@
   });
 
   //AI Agent
-   window.chtlConfig = { chatbotId: "2446289796" };
+   window.chtlConfig = { chatbotId: "9651246868" };
 
 })();
